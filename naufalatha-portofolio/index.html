@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naufal Network - Portfolio kreator konten teknologi, elektronika, dan pengembangan web. Berbagi proyek praktis melalui YouTube.">
+    <title>Naufal Network | Portfolio</title>
+    <link rel="icon" href="assets/images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="loading-screen" aria-hidden="true" aria-live="polite">
+        <div class="loading-spinner" aria-hidden="true"></div>
+        <p>Memuat Portfolio...</p>
+    </div>
+
+    <nav class="navbar" role="navigation" aria-label="Menu utama">
+        <div class="navbar__inner">
+            <a href="#home" class="navbar__logo">
+                <img src="assets/images/logo.png" alt="Naufal Network" width="40" height="40" loading="eager">
+                <span>Naufal Network</span>
+            </a>
+
+            <button type="button" class="menu-toggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="nav-menu">
+                <span class="menu-toggle__bar"></span>
+                <span class="menu-toggle__bar"></span>
+                <span class="menu-toggle__bar"></span>
+            </button>
+
+            <div id="nav-menu" class="nav-links" role="menubar">
+                <a href="#home" class="nav-links__item" role="menuitem">Home</a>
+                <a href="#about" class="nav-links__item" role="menuitem">About</a>
+                <div class="nav-dropdown" role="none">
+                    <button type="button" class="nav-dropdown__trigger" aria-expanded="false" aria-haspopup="true" aria-controls="nav-dropdown-menu" id="services-trigger">Services</button>
+                    <ul id="nav-dropdown-menu" class="nav-dropdown__menu" role="menu" aria-labelledby="services-trigger">
+                        <li role="none"><a href="#services" role="menuitem">Web Development</a></li>
+                        <li role="none"><a href="#services" role="menuitem">Elektronika</a></li>
+                        <li role="none"><a href="#services" role="menuitem">Video & Konten</a></li>
+                    </ul>
+                </div>
+                <a href="#projects" class="nav-links__item" role="menuitem">Portfolio</a>
+                <a href="#certifications" class="nav-links__item" role="menuitem">Certifications</a>
+                <a href="#blog" class="nav-links__item" role="menuitem">Blog</a>
+                <a href="#contact" class="nav-links__item" role="menuitem">Contact</a>
+            </div>
+
+            <div class="nav-social" role="list">
+                <a href="https://wa.me/6281320271087" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" role="listitem">
+                    <img src="assets/icons/whatsapp.svg" alt="" width="20" height="20">
+                </a>
+                <a href="https://instagram.com/_naufllar2" target="_blank" rel="noopener noreferrer" aria-label="Instagram" role="listitem">
+                    <img src="assets/icons/instagram.svg" alt="" width="20" height="20">
+                </a>
+                <a href="https://www.youtube.com/@NaufalNetwork" target="_blank" rel="noopener noreferrer" aria-label="YouTube" role="listitem">
+                    <img src="assets/icons/youtube.svg" alt="" width="20" height="20">
+                </a>
+                <a href="https://www.tiktok.com/@dtbypal" target="_blank" rel="noopener noreferrer" aria-label="TikTok" role="listitem">
+                    <img src="assets/icons/tiktok.svg" alt="" width="20" height="20">
+                </a>
+                <a href="https://linkedin.com/in/naufal-athaillah-59a429377/
+                " target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" role="listitem">
+                    <img src="assets/icons/linkedin.svg" alt="" width="20" height="20">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-effects" aria-hidden="true">
+        <div class="bg-gradient"></div>
+        <div class="bg-lines"></div>
+    </div>
+
+    <main class="main-content">
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 id="hero-heading">Hai, Saya <span>Naufal</span></h1>
+                    <p class="tagline">Kreator Konten Teknologi & Elektronika</p>
+                    <p class="description">Saya berbagi pengetahuan dan proyek elektronika, jaringan, dan pengembangan web melalui channel YouTube Naufal Network.</p>
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn--primary">Lihat Proyek</a>
+                        <a href="#contact" class="btn btn--secondary">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/profile.jpg" alt="Foto Naufal" width="400" height="400" fetchpriority="high" loading="eager">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading">Tentang <span>Saya</span></h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Saya seorang enthusiast teknologi dengan fokus pada elektronika, jaringan komputer, dan pengembangan web. Melalui channel YouTube Naufal Network, saya berbagi proyek-proyek praktis yang dapat diaplikasikan dalam kehidupan sehari-hari.</p>
+                        <p>Dengan latar belakang teknik, saya senang mengeksplorasi berbagai aspek teknologi dan membagikan pengetahuan tersebut kepada orang lain. Tujuan utama saya adalah membuat konten yang edukatif namun mudah dipahami.</p>
+                        <div class="skills">
+                            <h3>Keahlian:</h3>
+                            <ul>
+                                <li>Elektronika Dasar</li>
+                                <li>Jaringan Komputer</li>
+                                <li>Pengembangan Web</li>
+                                <li>Video Editing</li>
+                                <li>Konten Kreatif</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/images/profile.jpg" alt="Foto Profil Naufal" width="400" height="400" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services" aria-labelledby="services-heading">
+            <div class="container">
+                <h2 id="services-heading">Layanan <span>Saya</span></h2>
+                <p class="section-subtitle">Layanan yang saya tawarkan dalam bidang teknologi dan konten kreatif.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3>Web Development</h3>
+                        <p>Pembuatan website modern, responsif, dan SEO-friendly.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Elektronika</h3>
+                        <p>Proyek dan konsultasi rangkaian elektronika serta IoT.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Video & Konten</h3>
+                        <p>Produksi video edukatif dan konten kreatif untuk digital.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects" aria-labelledby="projects-heading">
+            <div class="container">
+                <h2 id="projects-heading">Proyek <span>Terbaru</span></h2>
+                <p class="section-subtitle">Berikut beberapa proyek yang telah saya kerjakan dan bagikan di YouTube</p>
+                <div class="projects-grid">
+                    <article class="project-card" itemscope itemtype="https://schema.org/VideoObject">
+                        <div class="project-image">
+                            <iframe src="https://www.youtube.com/embed/kNY7AudbsfM" title="Rangkaian Up Counter" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h3 itemprop="name">Rangkaian Up Counter</h3>
+                            <p itemprop="description">Demonstrasi rangkaian digital up counter menggunakan IC 7493 dengan tampilan 7-segment.</p>
+                            <a href="https://youtu.be/kNY7AudbsfM" target="_blank" rel="noopener noreferrer" class="btn btn--project">Tonton di YouTube</a>
+                        </div>
+                    </article>
+                    <article class="project-card" itemscope itemtype="https://schema.org/VideoObject">
+                        <div class="project-image">
+                            <iframe src="https://www.youtube.com/embed/yED4_Vk7yAE" title="Antena Yagi untuk TV Digital" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h3 itemprop="name">Antena Yagi untuk TV Digital</h3>
+                            <p itemprop="description">Panduan membuat antena Yagi sederhana untuk menangkap sinyal TV digital.</p>
+                            <a href="https://youtu.be/yED4_Vk7yAE" target="_blank" rel="noopener noreferrer" class="btn btn--project">Tonton di YouTube</a>
+                        </div>
+                    </article>
+                    <article class="project-card" itemscope itemtype="https://schema.org/VideoObject">
+                        <div class="project-image">
+                            <iframe src="https://www.youtube.com/embed/ER8Xr4RdwNQ" title="BoQ Fiber Optik" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h3 itemprop="name">BoQ Fiber Optik</h3>
+                            <p itemprop="description">Pembahasan detail tentang Bill of Quantity (BoQ) untuk proyek fiber optik.</p>
+                            <a href="https://youtu.be/ER8Xr4RdwNQ" target="_blank" rel="noopener noreferrer" class="btn btn--project">Tonton di YouTube</a>
+                        </div>
+                    </article>
+                    <article class="project-card" itemscope itemtype="https://schema.org/VideoObject">
+                        <div class="project-image">
+                            <iframe src="https://www.youtube.com/embed/-27lzwjwl3k" title="Website Dinamis" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                        </div>
+                        <div class="project-info">
+                            <h3 itemprop="name">Website Dinamis</h3>
+                            <p itemprop="description">Tutorial membuat website dinamis interaktif menggunakan HTML, CSS, dan JavaScript.</p>
+                            <a href="https://youtu.be/-27lzwjwl3k" target="_blank" rel="noopener noreferrer" class="btn btn--project">Tonton di YouTube</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="certifications" aria-labelledby="certifications-heading">
+            <div class="container">
+                <h2 id="certifications-heading">Sertifikasi</h2>
+                <p class="section-subtitle">Sertifikasi dan pelatihan yang telah diselesaikan.</p>
+                <div class="certifications-grid">
+        
+                    <!-- 1. OSIS -->
+                    <article class="cert-card">
+                        <div class="cert-card__logo">
+                            <img src="assets/images/Sertifikat_Anggota_OSIS.jpg" alt="SMK Telkom Bandung" width="80" height="80" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span class="cert-card__logo-placeholder">OSIS</span>
+                        </div>
+                        <h3>SMK Telkom Bandung</h3>
+                        <p>Sertifikat Apresiasi sebagai Anggota OSIS Masa Bakti 2024/2025</p>
+                        <span class="cert-card__status">Certificate of Appreciation</span>
+                        <button type="button" class="btn btn--primary btn--cert" data-cert-src="assets/images/Sertifikat_Anggota_OSIS.jpg">Lihat Sertifikat</button>
+                    </article>
+        
+                    <!-- 2. PKL -->
+                    <article class="cert-card">
+                        <div class="cert-card__logo">
+                            <img src="assets/images/Setifikat_PKL_PT_ITB.jpg" alt="PT. Inovasi Tjaraka Buana" width="80" height="80" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span class="cert-card__logo-placeholder">PKL</span>
+                        </div>
+                        <h3>PT. Inovasi Tjaraka Buana</h3>
+                        <p>Sertifikat Praktek Kerja Lapangan selama 3 bulan (Juli – September 2025) dengan sangat baik</p>
+                        <span class="cert-card__status">Certificate of Internship</span>
+                        <button type="button" class="btn btn--primary btn--cert" data-cert-src="assets/images/Setifikat_PKL_PT_ITB.jpg">Lihat Sertifikat</button>
+                    </article>
+        
+                    <!-- 3. Pijar Talenta -->
+                    <article class="cert-card">
+                        <div class="cert-card__logo">
+                            <img src="assets/images/certificate-course-web-app-12-11-2024.jpg" alt="Pijar Talenta" width="80" height="80" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span class="cert-card__logo-placeholder">PT</span>
+                        </div>
+                        <h3>Pijar Talenta</h3>
+                        <p>Program pengembangan talenta oleh Telkom Corporate University Center</p>
+                        <span class="cert-card__status">Certificate of Completion</span>
+                        <button type="button" class="btn btn--primary btn--cert" data-cert-src="assets/images/certificate-course-web-app-12-11-2024.jpg">Lihat Sertifikat</button>
+                    </article>
+        
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog" aria-labelledby="blog-heading">
+            <div class="container">
+                <h2 id="blog-heading">Blog <span>&amp; Artikel</span></h2>
+                <p class="section-subtitle">Tulisan dan update terbaru seputar teknologi dan proyek.</p>
+                <div id="blog-grid" class="blog-grid"></div>
+        
+                <<div class="comment-wrap">
+                    <h3 class="comment-wrap__title">💬 Komentar</h3>
+                    <script src="https://giscus.app/client.js"
+                        data-repo="naufalatha018-lgtm/naufalath-comments"
+                        data-repo-id="R_kgDORbzjcw"
+                        data-category="General"
+                        data-category-id="DIC_kwDORbzjc84C3eDw"
+                        data-mapping="pathname"
+                        data-strict="0"
+                        data-reactions-enabled="1"
+                        data-emit-metadata="0"
+                        data-input-position="bottom"
+                        data-theme="preferred_color_scheme"
+                        data-lang="id"
+                        crossorigin="anonymous"
+                        async>
+                    </script>
+                </div>
+        
+            </div>
+        </section>
+        
+        
+
+        <section id="contact" class="contact" aria-labelledby="contact-heading">
+            <div class="container">
+                <h2 id="contact-heading">Hubungi <span>Saya</span></h2>
+                <p class="section-subtitle">Silakan hubungi saya melalui platform berikut untuk kolaborasi atau pertanyaan</p>
+                <div class="contact-methods">
+                    <a href="https://wa.me/6281320271087" target="_blank" rel="noopener noreferrer" class="contact-card contact-card--whatsapp">
+                        <span class="contact-icon" aria-hidden="true"><img src="assets/icons/whatsapp.svg" alt="" width="30" height="30"></span>
+                        <h3>WhatsApp</h3>
+                        <p>Chat langsung untuk respon cepat</p>
+                        <span class="btn btn--contact">Kirim Pesan</span>
+                    </a>
+                    <a href="https://instagram.com/_naufllar2" target="_blank" rel="noopener noreferrer" class="contact-card contact-card--instagram">
+                        <span class="contact-icon" aria-hidden="true"><img src="assets/icons/instagram.svg" alt="" width="30" height="30"></span>
+                        <h3>Instagram</h3>
+                        <p>Follow untuk update terbaru</p>
+                        <span class="btn btn--contact">Kunjungi Profil</span>
+                    </a>
+                    <a href="https://www.youtube.com/@NaufalNetwork" target="_blank" rel="noopener noreferrer" class="contact-card contact-card--youtube">
+                        <span class="contact-icon" aria-hidden="true"><img src="assets/icons/youtube.svg" alt="" width="30" height="30"></span>
+                        <h3>YouTube</h3>
+                        <p>Subscribe untuk konten terbaru</p>
+                        <span class="btn btn--contact">Kunjungi Channel</span>
+                    </a>
+                    <a href="https://www.tiktok.com/@dtbypal" target="_blank" rel="noopener noreferrer" class="contact-card contact-card--tiktok">
+                        <span class="contact-icon" aria-hidden="true"><img src="assets/icons/tiktok.svg" alt="" width="30" height="30"></span>
+                        <h3>TikTok</h3>
+                        <p>Follow untuk konten pendek</p>
+                        <span class="btn btn--contact">Follow Saya</span>
+                    </a>
+                    <a href="https://linkedin.com/in/naufal-athaillah-59a429377/
+                    " target="_blank" rel="noopener noreferrer" class="contact-card contact-card--linkedin">
+                        <span class="contact-icon" aria-hidden="true"><img src="assets/icons/linkedin.svg" alt="" width="30" height="30"></span>
+                        <h3>LinkedIn</h3>
+                        <p>Koneksi profesional</p>
+                        <span class="btn btn--contact">Kunjungi Profil</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <span class="footer__brand">Naufal Network</span>
+    
+                <!-- Visitor Counter -->
+                <div class="footer__counter">
+                    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fnaufalatha-portofolio.netlify.app/&count_bg=%234361ee&title_bg=%23555&title=Pengunjung&edge_flat=true" alt="Visitor Counter"/>
+                </div>
+    
+                <!-- Share Buttons -->
+                <div class="footer__share">
+                    <span class="footer__share-label">Bagikan:</span>
+                    <a href="https://wa.me/?text=Kunjungi%20portfolio%20Naufal%20Network%20https://naufalatha-portofolio.netlify.app/" target="_blank" rel="noopener noreferrer" class="share-btn share-btn--wa">
+                        <img src="assets/icons/whatsapp.svg" alt="" width="16" height="16"> WhatsApp
+                    </a>
+                    <a href="https://twitter.com/intent/tweet?text=Kunjungi%20portfolio%20Naufal%20Network!&url=https://naufalatha-portofolio.netlify.app/" target="_blank" rel="noopener noreferrer" class="share-btn share-btn--x">
+                        𝕏 Twitter
+                    </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://naufalatha-portofolio.netlify.app/" target="_blank" rel="noopener noreferrer" class="share-btn share-btn--fb">
+                        Facebook
+                    </a>
+                </div>
+    
+                <p class="footer__copyright">&copy; <span id="year"></span> Naufal Network. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button type="button" class="back-to-top" aria-label="Kembali ke atas">
+        <img src="assets/icons/arrow-up.svg" alt="" width="20" height="20">
+    </button>
+
+    <button type="button" class="dark-mode-toggle" aria-label="Ubah tema gelap/terang">
+        <img src="assets/icons/moon.svg" alt="" class="icon-moon" width="20" height="20">
+        <img src="assets/icons/sun.svg" alt="" class="icon-sun" width="20" height="20">
+    </button>
+
+    <script src="script.js" defer></script>
+
+
+
+    </body>
+</html>
