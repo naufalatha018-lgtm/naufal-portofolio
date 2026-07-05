@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-paper text-ink dark:bg-bench dark:text-mist font-sans antialiased transition-colors duration-300;
+  }
+  ::selection {
+    @apply bg-copper/30;
+  }
+  :focus-visible {
+    outline: 2px solid theme('colors.copper.DEFAULT');
+    outline-offset: 3px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* eyebrow / schematic label */
+  .label-tag {
+    @apply font-mono text-[11px] tracking-[0.25em] uppercase text-copper dark:text-copper-bright;
+  }
+
+  .section-heading {
+    @apply font-mono text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight text-ink dark:text-mist;
+  }
+
+  /* schematic dotted backdrop */
+  .grid-backdrop {
+    background-image:
+      radial-gradient(circle, currentColor 1px, transparent 1px);
+    background-size: 22px 22px;
+    color: theme('colors.ink.DEFAULT');
+    opacity: 0.08;
+  }
+  .dark .grid-backdrop {
+    color: theme('colors.mist.DEFAULT');
+    opacity: 0.06;
+  }
+
+  /* --- Bento card w/ IC-pin corners + copper trace hover --- */
+  .bento-card {
+    position: relative;
+    @apply rounded-md bg-paper-panel dark:bg-bench-panel border border-paper-line dark:border-bench-line p-6 overflow-hidden;
+    transition: transform 0.35s cubic-bezier(0.33, 1, 0.68, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+  }
+  .bento-card:hover {
+    transform: translateY(-3px);
+    border-color: theme('colors.copper.DEFAULT');
+    box-shadow: 0 12px 32px -12px rgba(193, 98, 43, 0.25);
+  }
+  .dark .bento-card:hover {
+    box-shadow: 0 12px 32px -12px rgba(232, 147, 74, 0.25);
+  }
+
+  .ic-pin {
+    @apply absolute w-2 h-2 rounded-full bg-paper-line dark:bg-bench-line transition-colors duration-300;
+  }
+  .bento-card:hover .ic-pin {
+    @apply bg-copper dark:bg-copper-bright;
+  }
+}

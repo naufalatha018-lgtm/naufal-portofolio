@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <text x="50" y="62" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="46" font-weight="800" fill="#ffffff" text-anchor="middle">&lt;/&gt;</text>
+  <text x="150" y="62" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="34" font-weight="800" fill="#ffffff" text-anchor="middle" transform="rotate(-12 150 62)">{ }</text>
+  <text x="50" y="152" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="34" font-weight="800" fill="#ffffff" text-anchor="middle" transform="rotate(10 50 152)">{ }</text>
+  <text x="150" y="152" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="46" font-weight="800" fill="#ffffff" text-anchor="middle">&lt;/&gt;</text>
+</svg>
