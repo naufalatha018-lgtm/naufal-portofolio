@@ -1,32 +1,29 @@
 # 🌐 Naufal Network — Portfolio Website
-
 > Portfolio pribadi Naufal Athaillah — Kreator Konten Teknologi & Elektronika
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_BADGE_ID/deploy-status)](https://naufalatha-portofolio.netlify.app/)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-🔗 **Live Demo:** https://naufalatha-portofolio.netlify.app/
+🔗 https://naufalnetwork.dpdns.org
 
 ---
 
 ## ✨ Fitur
-
 - 🌙 Dark / Light Mode
 - 📱 Responsive Design
-- 📊 Visitor Counter
+- 🌐 Multi-language support
 - 🎬 Integrasi proyek YouTube
 - 📜 Galeri Sertifikasi
-- 🔗 Share ke WhatsApp, Twitter, Facebook
+- 🔗 Share ke WhatsApp, Instagram, LinkedIn
 
 ---
 
 ## 🗂️ Struktur Folder
 
-```
-naufalatha-portofolio/
-├── assets/
+naufal-portofolio/
+├── public/
 │   ├── icons/
 │   │   ├── arrow-up.svg
 │   │   ├── close.svg
@@ -38,32 +35,50 @@ naufalatha-portofolio/
 │   │   ├── tiktok.svg
 │   │   ├── whatsapp.svg
 │   │   └── youtube.svg
-│   └── images/
-│       ├── certificate-course-web-app-12-11-2024.jpg
-│       ├── logo.png
-│       ├── profile.jpg
-│       ├── sertifikat_anggota_osis.jpg
-│       └── setifikat_pkl_pt_itb.jpg
+│   ├── images/
+│   │   ├── certificate-course-web-app-12-11-2024.jpg
+│   │   ├── gallery-1.jpg
+│   │   ├── gallery-2.jpg
+│   │   ├── icon-pattern.svg
+│   │   ├── logo.png
+│   │   ├── profile.jpg
+│   │   ├── sertifikat_anggota_osis.jpg
+│   │   └── setifikat_pkl_pt_itb.jpg
+│   ├── favicon.svg
+│   └── icons.svg
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── BackToTop.jsx
+│   │   ├── BentoCard.jsx
+│   │   ├── Blog.jsx
+│   │   ├── Certifications.jsx
+│   │   ├── Contact.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProfileCard.jsx
+│   │   ├── Projects.jsx
+│   │   └── Services.jsx
+│   ├── context/
+│   │   ├── LangContext.jsx
+│   │   └── ThemeContext.jsx
+│   ├── data/
+│   │   └── content.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
 ├── index.html
-├── script.js
-├── style.css
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
 └── README.md
-```
+
 
 ---
 
-## 🚀 Cara Menjalankan Lokal
-
-```bash
-git clone https://github.com/naufalatha/naufalatha-portofolio.git
-cd naufalatha-portofolio
-# Buka index.html di browser
-```
-
----
 
 ## 📬 Kontak
-
 | Platform | Link |
 |----------|------|
 | 💬 WhatsApp | [Chat Sekarang](https://wa.me/6281320271087) |
@@ -72,5 +87,4 @@ cd naufalatha-portofolio
 | 💼 LinkedIn | [Naufal Athaillah](https://linkedin.com/in/naufal-athaillah-59a429377/) |
 
 ---
-
 © Naufal Network. All Rights Reserved.
